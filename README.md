@@ -9,8 +9,11 @@ It also allows to use a "jump server" for instance:
 
     command --ssh to-> jump server --ssh to-> actual server
     
+## Requirements
     
-
+You will need to install the PHP ssh2 extension and enable this. I assume you have knowledge on how to install php extensions
+     
+     
 ## Installation
 
 Via composer
@@ -33,18 +36,23 @@ Require the autoloader and include the namespace
     
     use SshWrapper\SshCore;
     
-initiate the class with the host
+Initiate the class with the host
     
     $ssh = new SshCore('123.123.123.123');
     
-Define the rsa public and private key locations
+Optional: Define the rsa public and private key locations if they differ from default. Defaults:
     
     $ssh->authPriv = '~/.ssh/id_rsa';
     $ssh->authPub = '~/.ssh/id_rsa.pub';
     
-Prefered: If you use the ssh server as "jump server" you can define the actual server here
+Optional: Define user and port if they differ from the default. Defaults:    
+
+    $ssh->authUser = 'root';
+    $ssh->port = 22;
     
-    $ssh->jumphost = 'vps0004';
+Prefered: If you use the ssh server as "jump server" you can define the actual server here including the user.
+    
+    $ssh->jumphost = 'root@321.321.321.321';
     
 Connect    
     
@@ -57,3 +65,8 @@ And execute a command
     var_dump($result);
     
 Result is a string of the output
+
+Disconnect to close the ssh connection
+
+    $ssh->disconnect();
+
