@@ -1,0 +1,17 @@
+{
+  "name": "douweegbertje/sshwrapper",
+  "description": "Server information written in PHP",
+  "homepage": "https://github.com/douweegbertje/sshwrapper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wiard van Rij",
+      "email": "wiard@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PhpSlackBot\\": "src/SshWrapper"
+    }
+  }
+}
