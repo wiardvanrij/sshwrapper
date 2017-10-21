@@ -1,6 +1,6 @@
 {
-  "name": "douweegbertje/sshwrapper",
-  "description": "Server information written in PHP",
+  "name": "wiardvanrij/sshwrapper",
+  "description": "SSH wrapper for PHP",
   "homepage": "https://github.com/douweegbertje/sshwrapper",
   "license": "MIT",
   "authors": [
