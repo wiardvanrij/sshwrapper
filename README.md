@@ -20,7 +20,7 @@ Via composer
 
     {
         "require": {
-            "douweegbertje/sshwrapper": "*"
+            "wiardvanrij/sshwrapper": "*"
         }
     }
 
