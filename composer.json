@@ -1,7 +1,7 @@
 {
   "name": "wiardvanrij/sshwrapper",
   "description": "SSH wrapper for PHP",
-  "homepage": "https://github.com/douweegbertje/sshwrapper",
+  "homepage": "https://github.com/wiardvanrij/sshwrapper",
   "license": "MIT",
   "authors": [
     {
