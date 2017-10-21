@@ -1,8 +1,8 @@
 <?php
 
-namespace sshwrapper\Core;
+namespace sshwrapper;
 
-class Core
+class SshCore
 {
     
     public $host;

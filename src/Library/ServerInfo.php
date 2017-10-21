@@ -1,8 +1,8 @@
 <?php
-namespace sshwrapper\ServerInfo;
+namespace sshwrapper\library;
 
-
-class ServerInfo {
+class ServerInfo
+{
     
     public function getPHPVersion()
     {
