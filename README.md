@@ -1,4 +1,4 @@
-# SSH wrapper and server information via php
+# SSH wrapper for PHP
 
 ## Information
 
