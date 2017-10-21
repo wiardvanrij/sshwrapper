@@ -1,5 +1,5 @@
 <?php
-namespace sshwrapper\library;
+namespace SshWrapper\library;
 
 class ServerInfo
 {

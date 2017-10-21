@@ -1,6 +1,6 @@
 <?php
 
-namespace sshwrapper;
+namespace SshWrapper;
 
 class SshCore
 {
